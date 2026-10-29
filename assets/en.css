@@ -1,0 +1,7 @@
+/* English edition: US convention, green = up, red = down */
+:root{--up:#18804a;--down:#c62f2f;--up-soft:#e5f4ec;--down-soft:#fbe9e9;
+  --f-display:"Source Serif 4",Georgia,serif;--f-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--up:#4cc98a;--down:#ff7a72;--up-soft:#173326;--down-soft:#3a1f22}}
+:root[data-theme="dark"]{--up:#4cc98a;--down:#ff7a72;--up-soft:#173326;--down-soft:#3a1f22}
+body{font-size:16px;line-height:1.6}
+.verdict .tag{font-size:20px}
