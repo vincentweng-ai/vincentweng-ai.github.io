@@ -1,7 +1,8 @@
 # 台北行情 Taipei Ticker：專案說明
 
 每日美股台股日報網站，中英雙語，最終目標是用 Google AdSense 變現。
-網站：https://vincentweng-ai.github.io/ （GitHub Pages，repo `vincentweng-ai/vincentweng-ai.github.io`，main 分支根目錄）。
+網站：https://taipeiticker.com/ （GitHub Pages，repo `vincentweng-ai/vincentweng-ai.github.io`，main 分支根目錄）。
+網域在 Namecheap 購買（2026-10-30），要保持 Domain Privacy 與自動續約開啟。舊網址 vincentweng-ai.github.io 會自動轉到新網域。sitemap.xml、robots.txt 一律用 `https://taipeiticker.com/`。根目錄的 `CNAME` 檔不要刪。
 擁有者以繁體中文溝通，不熟程式；說明時用白話，一步一步帶。
 
 ## 網站結構
@@ -15,6 +16,7 @@ zh-tw/  en/             兩種語言，檔名完全對應
 assets/style.css        共用樣式（顏色、字型、元件）
 assets/en.css           英文版覆寫：字型、綠漲紅跌
 sitemap.xml robots.txt  給搜尋引擎
+CNAME                   自訂網域 taipeiticker.com（不要刪）
 _config.yml             讓 GitHub Pages 不把 CLAUDE.md 發布成網頁（不要改成 .nojekyll，否則 CLAUDE.md 會被公開）
 .gitignore              不上傳 Mac 的 .DS_Store
 ```
@@ -69,6 +71,7 @@ _config.yml             讓 GitHub Pages 不把 CLAUDE.md 發布成網頁（不�
 - [ ] 上傳 sitemap.xml、robots.txt，設定 Google Search Console（網址前置字元方式）
 - [ ] Google Analytics：拿到評估 ID 後加到每一頁
 - [x] 每日製作流程與排程（2026-10-30 設定）
-- [ ] 考慮購買網域 taipeiticker.com（2026-10-30 確認尚未被註冊）
+- [x] 購買網域 taipeiticker.com（2026-10-30）
+- [x] Namecheap Email Forwarding：contact@taipeiticker.com 轉到擁有者信箱，聯絡頁已改用此地址（2026-10-30）
 - [ ] 累積 20 到 30 篇後申請 AdSense，並加上 Cookie 同意橫幅
 - [ ] 補上櫃買指數點數（目前只有漲跌幅）
