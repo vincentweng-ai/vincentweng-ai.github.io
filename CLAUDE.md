@@ -21,7 +21,7 @@ _config.yml             讓 GitHub Pages 不把 CLAUDE.md 發布成網頁（不�
 .gitignore              不上傳 Mac 的 .DS_Store
 ```
 
-全部是靜態 HTML，沒有建置工具。新增日報時要同時更新：兩個語言的日報檔、兩個 index.html（最新日報區塊＋歷史列表最上方加一筆）、sitemap.xml。
+全部是靜態 HTML，沒有建置工具。**每一頁的 `<head>` 都要有 Google Analytics 追蹤碼（評估 ID `G-V1DKLWCXKJ`）**，放在 viewport 那行下面；新頁面從現有頁面複製開頭即可。新增日報時要同時更新：兩個語言的日報檔、兩個 index.html（最新日報區塊＋歷史列表最上方加一筆）、sitemap.xml。
 
 ## 內容規則（擁有者已決定，不要改）
 
@@ -68,8 +68,8 @@ _config.yml             讓 GitHub Pages 不把 CLAUDE.md 發布成網頁（不�
 
 ## 待辦
 
-- [ ] 上傳 sitemap.xml、robots.txt，設定 Google Search Console（網址前置字元方式）
-- [ ] Google Analytics：拿到評估 ID 後加到每一頁
+- [x] Google Search Console：網址前置字元 https://taipeiticker.com/，HTML 標記驗證，已提交 sitemap.xml（2026-10-30）
+- [x] Google Analytics：評估 ID G-V1DKLWCXKJ，已加到每一頁，隱私權政策已註明（2026-10-30）
 - [x] 每日製作流程與排程（2026-10-30 設定）
 - [x] 購買網域 taipeiticker.com（2026-10-30）
 - [x] Namecheap Email Forwarding：contact@taipeiticker.com 轉到擁有者信箱，聯絡頁已改用此地址（2026-10-30）
