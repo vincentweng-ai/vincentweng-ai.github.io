@@ -8,7 +8,7 @@
 ## 網站結構
 
 ```
-index.html              入口頁，選擇語言
+index.html              入口頁，選擇語言（含 Google Search Console 驗證標記，不要刪）
 zh-tw/  en/             兩種語言，檔名完全對應
   index.html            首頁：最新日報＋歷史日報列表
   YYYY-MM-DD.html       每日日報
@@ -74,4 +74,4 @@ _config.yml             讓 GitHub Pages 不把 CLAUDE.md 發布成網頁（不�
 - [x] 購買網域 taipeiticker.com（2026-10-30）
 - [x] Namecheap Email Forwarding：contact@taipeiticker.com 轉到擁有者信箱，聯絡頁已改用此地址（2026-10-30）
 - [ ] 累積 20 到 30 篇後申請 AdSense，並加上 Cookie 同意橫幅
-- [ ] 補上櫃買指數點數（目前只有漲跌幅）
+- [x] 補上櫃買指數點數（2026-10-29 起，櫃買中心可查到）
