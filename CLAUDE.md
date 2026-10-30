@@ -15,7 +15,8 @@ zh-tw/  en/             兩種語言，檔名完全對應
 assets/style.css        共用樣式（顏色、字型、元件）
 assets/en.css           英文版覆寫：字型、綠漲紅跌
 sitemap.xml robots.txt  給搜尋引擎
-.nojekyll
+_config.yml             讓 GitHub Pages 不把 CLAUDE.md 發布成網頁（不要改成 .nojekyll，否則 CLAUDE.md 會被公開）
+.gitignore              不上傳 Mac 的 .DS_Store
 ```
 
 全部是靜態 HTML，沒有建置工具。新增日報時要同時更新：兩個語言的日報檔、兩個 index.html（最新日報區塊＋歷史列表最上方加一筆）、sitemap.xml。

@@ -1,0 +1,3 @@
+# 不要把專案說明 CLAUDE.md 發布成網頁
+exclude:
+  - CLAUDE.md
